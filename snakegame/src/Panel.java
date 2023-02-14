@@ -82,7 +82,8 @@ public class Panel extends JPanel implements ActionListener {
     {
         if(flag)
         {
-            graphic.setColor(Color.RED);
+            //draw the oval shaped food icon..setColor,fillOval
+            graphic.setColor(Color.RED); //set the color of food
             graphic.fillOval(fx,fy,unit,unit); //fx,fy- random coordinates of food
 
             for(int i=0;i<body;i++)
